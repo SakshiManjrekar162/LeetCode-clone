@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<b><i>🚀 LeetCode Clone </b></i>
 
-## Getting Started
+A full-stack LeetCode-like coding platform built using Next.js, TypeScript, and Firebase, allowing users to solve coding problems, track progress, and experience a real interview-style coding environment.
 
-First, run the development server:
+<b><i>📌 Features</b></i>
 
-```bash
+🔐 User authentication using Firebase Auth
+
+💻 Interactive code editor (CodeMirror)
+
+📚 Problem listing with difficulty levels
+
+🧠 Real-time coding experience
+
+🎯 Problem solving with test case support
+
+☁️ Firebase integration for backend services
+
+⚡ Fast UI with Next.js App Router
+
+<b><i>🛠️ Tech Stack </b></i>
+
+Frontend: Next.js, React, TypeScript
+
+Styling: Tailwind CSS
+
+Editor: CodeMirror
+
+Backend: Firebase (Auth + Firestore)
+
+State Management: React Hooks / Recoil
+
+<b><i>📁 Project Structure </b></i>
+
+leetcode_clone/
+
+├── app/ or pages/
+
+├── components/
+
+├── firebase/
+
+├── problems/
+
+├── styles/
+
+└── utils/
+
+<b><i>⚙️ Setup Instructions </b></i>
+
+1. Clone the repository
+
+git clone https://github.com/your-username/leetcode_clone.git
+
+cd leetcode_clone
+
+2. Install dependencies
+
+npm install
+
+3. Add Firebase config
+
+Create a .env.local file:
+
+NEXT_PUBLIC_FIREBASE_API_KEY=your_key
+
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_domain
+
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+
+4. Run the project
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<b><i>🔥 Firebase Setup </b></i>
 
-## Learn More
+Enable Authentication (Email/Password)
 
-To learn more about Next.js, take a look at the following resources:
+Enable Firestore Database
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Update rules during development:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+allow read, write: if true;
 
-## Deploy on Vercel
+<b><i>📸 Screenshots </b></i>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Dashboard page: 
+<p>
+  <img src="https://github.com/SakshiManjrekar162/LeetCode-clone/blob/main/public/Dashboard%20.png" />
+</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Code editor UI
+<p>
+  <img src="https://github.com/SakshiManjrekar162/LeetCode-clone/blob/main/public/Problem%20Solving%20Page.png" />
+</p>
+
+TestCases Passed
+<p>
+  <img src="https://github.com/SakshiManjrekar162/LeetCode-clone/blob/main/public/Test%20Cases%20Passed.png" />
+</p>
+
+Login page
+<p>
+  <img src="https://github.com/SakshiManjrekar162/LeetCode-clone/blob/main/public/LeetCode%20Login.png" />
+</p>
+
+<b><i> 🚀 Future Improvements </b></i>
+
+Add online judge system
+
+Add timers for problems
+
+Add contests feature
+
+Add AI code review
+
+Add leaderboard
